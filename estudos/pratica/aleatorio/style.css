@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+button{
+    padding: 18px 30px;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #3b3b3b;
+    border-radius: 5px;
+    min-width: 200px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+
+}
+
+button::before {
+content: "";
+position: absolute;
+display: block;
+top: 0;
+
+}
